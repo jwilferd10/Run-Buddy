@@ -1,10 +1,12 @@
+/* tells every element on the page not to have any margin or border */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* apply font color to the body */
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -15,6 +17,7 @@ header {
   background-color: #39a6b2;
 }
 
+/* applying style to the h1 element within header, the "display: inline" here helps "header nav ul li" sit neatly on the header */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -23,22 +26,53 @@ header h1 {
     display: inline;
 }
 
+/* styles <a> elements within the header */
 header a {
     text-decoration: none;
     color: #fce138
 }
 
+/* moves the nav element to the right side */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
+/* changes nav display to horizontal */
 header nav ul li {
     display: inline;
 }
 
+/* apply specific styles to the <a> elements within the nav, ul, and  */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+/* styles the footer */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/* apply style to h2 element within footer */
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* moving content wrapped within div to the right */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* apply styles to <a> elements within footer */
+footer a {
+    color: #024e76
 }
