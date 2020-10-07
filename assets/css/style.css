@@ -5,11 +5,15 @@
     box-sizing: border-box;
 }
 
+/* Now Styling The Body */
+
 /* apply font color to the body */
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
+
+/* Now Styling The Header */
 
 /* apply styles to <header> */
 header {
@@ -50,6 +54,8 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* Now Styling The Footer */
+
 /* styles the footer */
 footer {
     background: #fce138;
@@ -76,3 +82,63 @@ footer div {
 footer a {
     color: #024e76
 }
+
+/* create space between each section */
+section {
+    padding: 60px;
+}
+
+/* hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* hero Style End
+
+/* hero-Form Start */
+.hero-form {
+    border: solid 3px #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+/* hero-Form end */
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16;
+}
+/* HERO STYLES END */
