@@ -43,16 +43,19 @@ header nav {
     margin: 7px 0;
 }
 
-/* changes nav display to horizontal */
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 /* apply specific styles to the <a> elements within the nav, ul, and  */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 /* Now Styling The Footer */
