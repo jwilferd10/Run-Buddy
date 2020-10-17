@@ -22,6 +22,13 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky; /* Allows support for Safari */
+  position: sticky;
+  top: 0; 
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
 }
 
 /* applying style to the h1 element within header, the "display: inline" here helps "header nav ul li" sit neatly on the header */
@@ -30,6 +37,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0; 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* styles <a> elements within the header */
@@ -56,6 +64,15 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* psuedo-class, hover effect */
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 /* Now Styling The Footer */
@@ -97,7 +114,8 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -113,6 +131,7 @@ section {
     color: #fff;
     font-size: 18px;
     line-height: 1.2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Adds style within hero-cta's h2 element */
@@ -125,11 +144,13 @@ section {
 /* hero-Form Start */
 .hero-form {
     border: solid 3px #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;
     color: #024e76;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-form h3 {
@@ -146,9 +167,17 @@ section {
     display: block;
     padding: 7px 15px;
     font-size: 16px;
+    background-color: rgba(255,255,255, 0.75);
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Focus State */
+.form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 .hero-form label {
@@ -161,6 +190,12 @@ section {
     border: none;
     padding: 10px 20px;
     font-size: 16;
+    border-radius: 10px;
+}
+
+/* Psuedo class for hover */
+.hero-form button:hover {
+    background-color: #39a6b2;
 }
 /* HERO STYLES END */
 
@@ -204,11 +239,15 @@ section {
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Adds a border to each step EXCEPT the last */
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
 }
 
 .step h3 {
@@ -394,12 +433,19 @@ text-align: center;
       display: block;
       padding: 7px 15px;
       font-size: 16px;
+      background-color: rgba(210, 221, 228, 0.856);
       color: #024e76;
       width: 100%;
       margin-bottom: 15px;
       margin-top: 5px;
+      border-radius: 10px;
   }
 
+  .contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  }
+ 
   .contact-form button {
       width: 100%;
       border: none;
@@ -408,6 +454,12 @@ text-align: center;
       text-align: center;
       padding: 15px 0;
       font-size: 16px;
+      border-radius: 10px;
+  }
+
+  .contact-form button:hover {
+      color: #fce138;
+      background: #39a6b2;
   }
 /* important: text-left and text-right were created for the soul purpose of aligning text when needed. */
 .text-left {
@@ -429,6 +481,7 @@ text-align: center;
         /* this will be applied on any screen smaller than 980px */
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
