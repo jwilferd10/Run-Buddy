@@ -146,6 +146,7 @@ section {
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
+    padding-bottom: 10px;
 }
 
 /* hero-Form Start */
@@ -189,6 +190,10 @@ section {
 
 .hero-form label {
     margin: 0 5px;
+}
+
+#heroFormText {
+    text-decoration: underline;
 }
 
 .hero-form button {
