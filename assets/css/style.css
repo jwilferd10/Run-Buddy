@@ -498,6 +498,8 @@ section {
     border: 2px solid var(--secondary-color);
     color: var(--secondary-color);
     font-size: 1.2rem;
+    box-shadow: 5px 7px 6px black;
+    border-radius: 25px;
 }
 
 .service-grid-item {
@@ -529,6 +531,19 @@ section {
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+#premiumHeader {
+    border-radius: 0px 20px 0px 0px;
+}
+
+#premiumFooter {
+    border-radius: 0px 0px 20px 0px;
+}
+
+#cancelBox {
+    border-radius: 0px 20px 20px 0px;
+}
+
 /* reach-out section begins */
 .contact {
     background: var(--secondary-color);
