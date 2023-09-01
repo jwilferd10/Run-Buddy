@@ -595,10 +595,11 @@ section {
     border-radius: 10px;
 }
 
-  .contact-form button:hover {
-      color: var(--primary-color);
-      background: #39a6b2;
-  }
+.contact-form button:hover {
+    color: var(--primary-color);
+    background: #39a6b2;
+}
+
 /* important: text-left and text-right were created for the soul purpose of aligning text when needed. */
 .text-left {
     text-align: left;
