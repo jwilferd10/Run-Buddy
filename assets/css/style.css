@@ -543,15 +543,16 @@ section {
 
 .contact-info iframe {
     height: 400px;
-  }
+}
   
   .contact-info div {
     color: white;
   }
 
   .contact-info h3 {
-      color: var(--primary-color);
-      font-size: 32px;
+    color: var(--primary-color);
+    font-size: 32px;
+    padding-bottom: 10px;
   }
 
   .contact-info p, .contact-info address {
