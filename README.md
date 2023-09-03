@@ -1,16 +1,34 @@
 # Run Buddy Inc.
-
-## Purpose
 A website that offers fitness training services
 
-## Built With
-* HTML
-* CSS
+:computer: **Live Deployment**: https://jwilferd10.github.io/run-buddy/
 
-## Website
-https://jwilferd10.github.io/run-buddy/
+:computer: **Github Repository**: 
 
-## Contribution
-Made with ❤️ by Jonathan Wilferd
+## :open_file_folder: Table of Contents:
+  - [Preview](#camera-preview)
+  - [Demo](#movie_camera-demo)
+  - [Description](#wave-description)
+  - [User Story](#book-user-story)
+  - [Resources Used](#floppy_disk-resources-used)
+  - [Contributors](#paperclip-contributors)
+  - [Contact Information](#e-mail-contact-information)
 
-### ©️2019 Run Buddy, Inc
+## :camera: Preview:
+Coming Soon!
+
+## :wave: Description: 
+Coming Soon!
+
+## :book: User Story:
+Coming Soon!
+
+## :floppy_disk: Resources Used:
+- HTML
+- CSS
+
+## :paperclip: Contributors
+- jwilferd10 (Design additions, mobile-setup, bug fixing) 
+  
+## :e-mail: Contact Information:
+- ### [jwilferd10](https://github.com/jwilferd10)
