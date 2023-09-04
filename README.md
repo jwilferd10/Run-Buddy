@@ -27,14 +27,21 @@ The foundational framework for Run Buddy was established at commit 6293801. Subs
 Thank you for checking this site out!
 
 ## :book: User Story:
-Coming Soon!
+**AS A fitness corporation evaluating potential fitness partners**
+
+- I WANT to understand the significance of Run Buddy's platform in the world of fitness and wellness,
+    - SO THAT our own site is optimized for search engines
+
+**GIVEN THAT our corporation is committed to promoting employee wellness and fitnes**
+- WHEN I explore Run Buddy's platform and understand its purpose,
+    - THEN I can make an informed decision on whether to engage with Run Buddy
 
 ## :floppy_disk: Resources Used:
 - HTML
 - CSS
 
 ## :paperclip: Contributors
-- jwilferd10 (Design additions, mobile-setup, bug fixing) 
+- jwilferd10 (Mobile Setup, UX/UI Enhancements) 
   
 ## :e-mail: Contact Information:
 - ### [jwilferd10](https://github.com/jwilferd10)
