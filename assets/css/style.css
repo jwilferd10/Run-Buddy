@@ -101,6 +101,11 @@ footer h2 {
     margin: 0;
 }
 
+#footerText {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 /* moving content wrapped within div to the right */
 footer div {
     line-height: 1.5;
@@ -749,6 +754,19 @@ section {
 
     .trainer-bio h3, .trainer-bio h4 {
         display: block
+    }
+
+
+    #basicHeader {
+        border-radius: 20px 0px 0px 0px;
+    }
+
+    #premiumFooter {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    #cancelBox {
+        border-radius: 0px 0px 20px 20px;
     }
 
 }
