@@ -314,6 +314,11 @@ section {
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.introSubText {
+    padding-top: 50px;
 }
 /* what-we-do end */
 
