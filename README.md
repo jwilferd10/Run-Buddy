@@ -18,13 +18,21 @@ A website that offers fitness training services
 Coming Soon!
 
 ## :wave: Description: 
-In the world of fitness and wellness, web accessibility is an emerging imperative. Run Buddy understands the importance of prioritizing fitness in today's fast-paced life. Run Buddy's platform is devoted to your well-being, offering a comprehensive toolkit to embark on your journey to a healthier, more active lifestyle. Whether you're a seasoned athlete or just getting started, Run Buddy's Fitness Training Services are here to guide and support you. Explore tailor-made workout plans, receive expert nutrition advice, and connect with a vibrant community of fitness enthusiasts for ongoing motivation. Remember, investing in your health is an enduring commitment that yields lifelong benefits. Your path to fitness excellence begins here, with Run Buddy as your dedicated partner. Welcome to a healthier, more vibrant you!
+This is the landing page of a fitness platform called Run Buddy, these pages showcase a fitness company that is promoting their platform and trying to sell their services as physical trainers. Built for both desktop and mobile devices. This is the companies digital footprint.
 
-Run Buddy is a website that was created as a journey to learn HTML and CSS structure. This project was built from the ground-up without the assistance of any Content Delivery Networks (CDNs). Featured within this repository is well-written and semantic HTML with reusable CSS assets used throughout the entirety of the project. The two HTML files featured in this repository are both the landing and privacy-policy page.
+### 💭 Developer Notes
+The foundational framework for Run Buddy was established at commit 6293801. Subsequent changes made beyond this commit are my personal updates. These commits are primarily aimed to modernize the platform. Notable improvements include:
 
-The foundational framework for Run Buddy was established at commit 6293801. Subsequent changes made beyond this milestone represent additional enhancements implemented to refine the initial setup. These updates primarily aimed to modernize the platform. Notable improvements include the replacement of lorem ipsum filler with detailed paragraphs, the evolution of the design to eliminate the initial 'boxed in' layout, and the strategic emphasis placed on key elements to capture user attention. These enhancements enable Run Buddy to effectively engage with it's audience and learn more about Run Buddy. 
+- Replacement of lorem ipsum filler with detailed paragraphs 
+- Evolution of the design, moving away from the 'boxed in' layout
+- Strategic emphasis placed on key elements to capture user attention. 
+- Animations for specific images
+- Improved mobile experience
 
-Thank you for checking this site out!
+These enhancements enable Run Buddy to effectively engage with it's audience and learn more about the platform. 
+
+### 🙏 Thank You
+Especially for checking out Run Buddy, I consider this a stepping stone as it is the first landing page I've built.
 
 ## :book: User Story:
 **AS A fitness corporation evaluating potential fitness partners**
