@@ -20,7 +20,7 @@ html {
 /* apply font color to the body */
 body {
     color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
 /* Now Styling The Header */
