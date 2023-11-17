@@ -420,7 +420,7 @@ section {
 
 .trainer-img {
     width: 100%;
-    min-height: 400px;
+    min-height: 685px;
     background-size: cover;
     display: flex;
     padding: 15px;
@@ -655,6 +655,18 @@ section {
 /* important: text-left and text-right were created for the soul purpose of aligning text when needed. */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1800px) {
+    .trainer-img {
+        min-height: 550px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .trainer-img {
+        min-height: 300px;
+    }
+}
+
 @media screen and (max-width: 980px) {
     header {
         /* this will be applied on any screen smaller than 980px */
@@ -705,10 +717,8 @@ section {
     }
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
     section {
-        /* this will be applied on any screen between 768px and 575px */
         padding: 30px 15px;
     }
 
@@ -759,7 +769,10 @@ section {
 
 /* This will hide/remove the gradient, name, and roll for smaller devices */
 @media screen and (max-width: 768px) {
-    
+    .trainer-img {
+        min-height: 35rem;
+    }
+
     .trainer-img h3, .trainer-img h4, .trainer-img::after {
         display: none;
     }
@@ -800,6 +813,10 @@ section {
 
     .trainer {
         flex: 0 100%;
+    }
+
+    .trainer-img {
+        min-height: 350px;
     }
 
     .contact-info {
