@@ -21,6 +21,10 @@ body {
 
 /* Now Styling The Header */
 
+.pointer {
+    cursor: pointer;
+}
+
 /* apply styles to <header> */
 header {
   padding: 20px 35px;
