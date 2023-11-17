@@ -138,10 +138,9 @@ section {
 /* Adding Flexbox Styling */
 .hero-cta {
     width: 35%;
-    text-align: right;
     margin: 3.5%;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.2;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
