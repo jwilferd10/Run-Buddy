@@ -15,7 +15,9 @@ A website that offers fitness training services
   - [Contact Information](#e-mail-contact-information)
 
 ## :camera: Preview:
-Coming Soon!
+## :movie_camera: Demo:
+![image](assets/images/RunBuddyStill.jpg)
+![image](assets/images/RunBuddyGif.gif)
 
 ## :wave: Description: 
 This is the landing page of a fitness platform called Run Buddy, these pages showcase a fitness company that is promoting their platform and trying to sell their services as physical trainers. Built for both desktop and mobile devices. This is the companies digital footprint.
