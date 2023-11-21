@@ -15,8 +15,8 @@ A website that offers fitness training services
   - [Contact Information](#e-mail-contact-information)
 
 ## :camera: Preview:
-## :movie_camera: Demo:
 ![image](assets/images/RunBuddyStill.jpg)
+## :movie_camera: Demo:
 ![image](assets/images/RunBuddyGif.gif)
 
 ## :wave: Description: 
